@@ -1,0 +1,14 @@
+.container {
+  display: inline-block;
+  margin: 15px;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+}
