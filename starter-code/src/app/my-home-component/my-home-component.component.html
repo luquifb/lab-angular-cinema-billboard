@@ -1,14 +1,12 @@
-
-  <div class="container" *ngFor="let movie of movies">
+<div class="container">
+  <div class="container-2" *ngFor="let movie of movies">
 
     <p><b>ROOM:</b> {{ movie.room }}</p>
 
     <a [routerLink]="['/movie',movie.id]">
-
       <img src="{{ movie.poster}}" class="image" >
-
     </a>
 
     <p><i>{{ movie.title }}</i></p>
-
   </div>
+</div>

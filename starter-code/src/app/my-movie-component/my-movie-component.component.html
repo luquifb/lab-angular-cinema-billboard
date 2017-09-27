@@ -1,3 +1,10 @@
-<p>
-  my-movie-component works!
-</p>
+
+<div class="container">
+  <div *ngFor="let movie of movies">
+    <p><b>Room:</b> {{ movie.room }}</p>
+      <img src="{{ movie.poster}}" class="image" >
+    <p><i>{{ movie.title }}</i></p>
+  </div>
+
+  <button type="button" name="button" class="btn"> Back Home</button>
+</div>
